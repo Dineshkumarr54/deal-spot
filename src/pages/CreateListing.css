@@ -1,0 +1,35 @@
+.create-listing-container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.create-listing-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.create-listing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.create-listing-form input,
+.create-listing-form textarea,
+.create-listing-form button {
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.create-listing-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.create-listing-form button:hover {
+  background-color: #0056b3;
+}
